@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>კონტაქტი - PAITSGEO</title>
+  <link rel="stylesheet" href="../design/contacts-page-styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <a href="../index.html">
+          <img src="../img/img3.png" alt="PAITS Logo" class="logo-img" />
+        </a>
+        <div class="logo-text">
+          <span class="logo-title" data-ka="საქართველოს პედიატრიული ანესთეზიოლოგიისა და ინტენსიური თერაპიის საზოგადოება" data-en="Pediatric Anesthesiology and Intensive Therapy Society of Georgia"></span>
+          <span class="logo-abbr">PAITS Georgia</span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <div class="nav-dropdown">
+          <a href="../index.html" class="nav-top-link" data-ka="ჩვენს შესახებ" data-en="About Us">ჩვენს შესახებ</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-nested">
+              <a href="group_members.html" class="dropdown-item has-children" data-ka="ასოციაციის წევრები" data-en="Team Members">ასოციაციის წევრები<span class="chevron">›</span></a>
+              <div class="nested-menu">
+                <a href="founders.html" class="dropdown-item" data-ka="დამფუძნებელი წევრები" data-en="Founder members"></a>
+                <a href="ass" class="dropdown-item" data-ka="ასოციაციის სხვა წევრები" data-en="Other members"></a>
+              </div>
+            </div>
+            <a href="activities.html" class="dropdown-item" data-ka="ასოციაციის აქტივობები" data-en="Association Activities">ასოციაციის აქტივობები</a>
+            <a href="conferences.html" class="dropdown-item" data-ka="კონფერენციები" data-en="Conferences">კონფერენციები</a>
+            <a href="trainings.html" class="dropdown-item" data-ka="ტრენინგები" data-en="Trainings">ტრენინგები</a>
+          </div>
+        </div>
+        <a href="mission.html" data-ka="მისია" data-en="Mission">მისია</a>
+        <a href="contacts.html" data-ka="კონტაქტი" data-en="Contact">კონტაქტი</a>
+      </nav>
+
+      <button class="lang-btn" id="langToggle" onclick="toggleLanguage()">
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero hero-secondary">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title" data-ka="დაგვიკავშირდით" data-en="Get in Touch"></h1>
+      <p class="hero-sub" data-ka="გაქვთ კითხვები ან გნებავთ ინფორმაცია ჩვენ ასოციაციის შესახებ? გამოიყენეთ ქვემოთ მოცემული ფორმა ან დაგვიკავშირდით სხვა გზით." data-en="Have questions or want to learn more about our association? Use the form below or reach out through our contact details."></p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contacts-grid">
+        
+        <!-- LEFT: Contact Info -->
+        <div class="contact-info-box">
+          <h2 data-ka="კონტაქტური ინფორმაცია" data-en="Contact Information"></h2>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-details">
+              <h3 data-ka="ელ-ფოსტა" data-en="Email"></h3>
+              <p><a href="mailto:info@paitsgeorgia.ge">info@paitsgeorgia.ge</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div class="contact-details">
+              <h3 data-ka="ტელეფონი" data-en="Phone"></h3>
+              <p><a href="tel:+995322000000">+995 32 200 00 00</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-details">
+              <h3 data-ka="მისამართი" data-en="Address"></h3>
+              <p data-ka="თბილისი, საქართველო" data-en="Tbilisi, Georgia"></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div class="contact-details">
+              <h3 data-ka="სამუშაო საათები" data-en="Working Hours"></h3>
+              <p data-ka="ორშაბათი - პარასკევი: 09:00 - 18:00" data-en="Monday - Friday: 09:00 - 18:00"></p>
+            </div>
+          </div>
+
+          <div class="social-section">
+            <h3 data-ka="მოკითხვა სოციალური ქსელებით" data-en="Follow Us"></h3>
+            <div class="social-links-contact">
+              <a href="https://facebook.com/YOURPAGE" target="_blank" rel="noopener noreferrer" class="social-btn social-fb" aria-label="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="https://youtube.com/@YOURCHANNEL" target="_blank" rel="noopener noreferrer" class="social-btn social-yt" aria-label="YouTube">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon fill="#ffffff" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+              </a>
+              <a href="https://tiktok.com/@YOURPROFILE" target="_blank" rel="noopener noreferrer" class="social-btn social-tk" aria-label="TikTok">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.17 8.17 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Contact Form -->
+        <div class="contact-form-box">
+          <h2 data-ka="გამოგვიწერეთ ფორმა" data-en="Send us a Message"></h2>
+          
+          <form id="contactForm" class="contact-form" novalidate>
+            <!-- Honeypot field (spam protection) -->
+            <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" data-ka="სახელი" data-en="Full Name"></label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  required
+                  data-placeholder-ka="თქვენი სახელი"
+                  data-placeholder-en="Your name"
+                  placeholder="თქვენი სახელი"
+                />
+                <span class="field-error" data-ka="გთხოვთ შეიყვანეთ სახელი" data-en="Please enter your name"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" data-ka="ელ-ფოსტა" data-en="Email"></label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  required
+                  data-placeholder-ka="თქვენი ელ-ფოსტა"
+                  data-placeholder-en="your@email.com"
+                  placeholder="თქვენი ელ-ფოსტა"
+                />
+                <span class="field-error" data-ka="გთხოვთ შეიყვანეთ სწორი ელ-ფოსტა" data-en="Please enter a valid email"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone" data-ka="ტელეფონი" data-en="Phone"></label>
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone"
+                  data-placeholder-ka="+995 5XX XXX XXX"
+                  data-placeholder-en="+995 5XX XXX XXX"
+                  placeholder="+995 5XX XXX XXX"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject" data-ka="საკითხის სახელი" data-en="Subject"></label>
+                <input 
+                  type="text" 
+                  id="subject" 
+                  name="subject" 
+                  required
+                  data-placeholder-ka="საკითხის სახელი"
+                  data-placeholder-en="Subject"
+                  placeholder="საკითხის სახელი"
+                />
+                <span class="field-error" data-ka="გთხოვთ შეიყვანეთ საკითხის სახელი" data-en="Please enter a subject"></span>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message" data-ka="შეტყობინება" data-en="Message"></label>
+              <textarea 
+                id="message" 
+                name="message" 
+                required
+                rows="6"
+                maxlength="2000"
+                data-placeholder-ka="თქვენი შეტყობინება..."
+                data-placeholder-en="Your message..."
+                placeholder="თქვენი შეტყობინება..."
+              ></textarea>
+              <span class="char-count"><span id="charCount">0</span>/2000</span>
+              <span class="field-error" data-ka="გთხოვთ შეიყვანეთ შეტყობინება (მინიმუმ 10 სიმბოლო)" data-en="Please enter a message (minimum 10 characters)"></span>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="consent" name="consent" required />
+                <span data-ka="ვეთანხმები ჩემი ელ-ფოსტა გამოყენებაზე ჩემთან დაკავშირებისთვის" data-en="I agree to be contacted at this email address"></span>
+              </label>
+              <span class="field-error" data-ka="გთხოვთ დაეთანხმოთ" data-en="Please agree to continue"></span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn-primary cf-submit" data-ka="გამოგზავნა" data-en="Send Message">გამოგზავნა</button>
+              <div class="form-status"></div>
+            </div>
+          </form>
+
+          <!-- Success Message -->
+          <div class="form-success" id="successMessage" style="display: none;">
+            <div class="success-icon">✓</div>
+            <p data-ka="მადლობა თქვენი შეტყობინებისთვის! მალე დაგიკავშირდებით." data-en="Thank you for your message! We'll get back to you soon."></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="../img/img3.png" alt="PAITS" class="footer-logo" />
+          <p class="footer-desc" data-ka="საქართველოს პედიატრიული ანესთეზიოლოგიისა და ინტენსიური თერაპიის საზოგადოება" data-en="Pediatric Anesthesiology and Intensive Therapy Society of Georgia"></p>
+        </div>
+        <div class="footer-contact">
+          <h4 data-ka="კონტაქტი" data-en="Contact Us"></h4>
+          <ul class="footer-contact-list">
+            <li>📧 <a href="mailto:info@paitsgeorgia.ge">info@paitsgeorgia.ge</a></li>
+            <li>📞 <a href="tel:+995322000000">+995 32 200 00 00</a></li>
+            <li>📍 <span data-ka="თბილისი, საქართველო" data-en="Tbilisi, Georgia"></span></li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <a href="https://facebook.com/YOURPAGE" target="_blank" rel="noopener noreferrer" class="social-btn social-fb" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://youtube.com/@YOURCHANNEL" target="_blank" rel="noopener noreferrer" class="social-btn social-yt" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon fill="#ffffff" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          </a>
+          <a href="https://tiktok.com/@YOURPROFILE" target="_blank" rel="noopener noreferrer" class="social-btn social-tk" aria-label="TikTok">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.17 8.17 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="../js/lang.js"></script>
+<script src="../js/contact-form.js"></script>
+</body>
+</html>
